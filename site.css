@@ -1,0 +1,126 @@
+header{
+  grid-area: header;
+  height: 200px;
+  background-color: #00BFFF;
+  text-align: center;
+}
+.menu1{
+  float: right;
+  margin: 20px;
+}
+h1{
+  font-family: 'Lobster';
+  padding-top: 80px;
+  color: white;
+}
+aside{
+  grid-area: aside;
+  width: 270px;
+}
+.menu{
+  width: 270px;
+  height: 1600px;
+  margin-top: -23px;
+  background-color: #87CEEB;
+  float: left;
+  text-align: center;
+  font-family: 'Lobster';
+  color: white;
+}
+.vertical-menu {
+    width: 200px;
+    margin-left: 50px;
+    color: white;
+}
+
+.vertical-menu a {
+    background-color: #1E90FF;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    margin-right:30px;
+}
+
+.vertical-menu a:hover {
+    background-color: #00BFFF;
+}
+
+.vertical-menu a.active {
+    background-color: #00BFFF;
+    color: white;
+}
+article{
+  grid-area: article;
+  background-color: #87CEFA;
+  width: auto;
+
+}
+.content{
+  height: 1600px;
+  margin-left: -30px;
+  margin-top: -23px;
+  background-color: #87CEFA;
+  float: left;
+}
+iframe{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  text-align: justify;
+  font-family: 'Lobster';
+  color: white;
+        margin:20px;
+        font-size: 16px;
+}
+h2{
+  text-align: center;
+  font-family: 'Lobster';
+  color: white;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+aside.sidebar {
+    grid-area: aside;
+
+}
+aside.ad {
+    grid-area: ad;
+    background-color:  #87CEFA;
+    width: 0px;
+    margin-top: -25px;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+footer{
+  grid-area: footer;
+}
+footer{
+  height: 100px;
+  margin-top: -25px;
+  background-color: #1E90FF;
+        clear: both;
+        text-align: center;
+        font-family: 'Lobster';
+        padding-top: 20px;
+        color: white;
+}
+.grid{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2/7fr;
+  grid-template-areas: 
+  "header header header"
+  "aside article ad"
+  "footer footer footer";
+} 
+  @media (min-width: 640px) and (max-width: 789px) {}
+  .menu1{
+
+
