@@ -65,9 +65,10 @@ article{
   float: left;
 }
 iframe{
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 p{
   text-align: justify;
